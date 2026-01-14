@@ -21,6 +21,8 @@ display = board.DISPLAY
 # wait until we can refresh the display
 time.sleep(display.time_to_refresh)
 
+# NOTE: You must copy the fonts/ folder from the
+# examples in the repo to your CIRCUITPY drive.
 # try uncommenting different font files if you like
 font_file = "fonts/LeagueSpartan-Bold-16.bdf"
 # font_file = "fonts/Junction-regular-24.pcf"
