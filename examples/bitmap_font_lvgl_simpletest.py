@@ -9,6 +9,8 @@ https://lvgl.io/tools/fontconverter
 
 from adafruit_bitmap_font import bitmap_font
 
+# NOTE: You must copy the fonts/ folder from the
+# examples in the repo to your CIRCUITPY drive.
 # Use the Japanese font file
 font_file = "fonts/unifont-16.0.02-ja.bin"
 

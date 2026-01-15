@@ -8,6 +8,8 @@ ASCII art representation of the given string specimen
 
 from adafruit_bitmap_font import bitmap_font
 
+# NOTE: You must copy the fonts/ folder from the
+# examples in the repo to your CIRCUITPY drive.
 # you can change this to a different bdf or pcf font file
 font_file = "fonts/LeagueSpartan-Bold-16.bdf"
 

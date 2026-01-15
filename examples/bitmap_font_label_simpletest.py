@@ -16,6 +16,8 @@ from adafruit_bitmap_font import bitmap_font
 # https://learn.adafruit.com/circuitpython-display-support-using-displayio/display-and-display-bus
 display = board.DISPLAY
 
+# NOTE: You must copy the fonts/ folder from the
+# examples in the repo to your CIRCUITPY drive.
 # try uncommenting different font files if you like
 font_file = "fonts/LeagueSpartan-Bold-16.bdf"
 # font_file = "fonts/Junction-regular-24.pcf"
